@@ -1,0 +1,28 @@
+@import url('mobile.css') only screen and (max-width:376px);
+@import url('desktop.css') only screen and (min-width:377px);
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+/* adding font */
+@font-face {
+    font-family: Big_Shoulders_Display;
+    src: url(./Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+    font-weight: 900px;
+}
+@font-face {
+    font-family: Lexend_Deca;
+    src: url(./Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+    font-weight: 400px;
+}
